@@ -1,0 +1,153 @@
+/*===========================
+	GLOBALS
+===========================*/
+
+/* Font Colors */
+
+.primary-color {
+	color: #777;
+}
+
+.secondary-color {
+	color: #4aaaa5;
+}
+
+.white {
+	color: #fff;
+}
+
+/* Background */
+
+.primary-color-bg {
+	background: #ccc;
+}
+
+.secondary-color-bg {
+	background: #4aaaa5;
+}
+
+.dark-grey-bg {
+	background: #666;
+}
+
+.white-bg {
+	background: #fff;
+}
+
+.patterned-bg {
+	background: url('../img/light_grey.png');
+}
+
+/* Positioning - Padding - Margins */
+
+.align-center {
+	text-align: center;
+}
+
+.padding-top {
+	padding-top: 10px;
+}
+
+.padding-20 {
+	padding: 20px; 
+}
+
+.padding-40 {
+	padding: 40px;
+}
+
+.margin-0 {
+	margin: 0; 
+}
+
+.margin-tb-30 {
+	margin: 30px auto;
+}
+
+.margin-right-10 {
+	margin-right: 10px;
+}
+
+.margin-bottom-10 {
+	margin-bottom: 10px;
+}
+
+.margin-bottom-20 {
+	margin-bottom: 20px;
+}
+
+.footer-fix {
+	min-height: calc(100vh - 188px); /* Keeps Footer At the Bottom! */
+}
+
+/*=======================
+	END  GLOBALS
+=======================*/
+
+hr.divider {
+	width: 100%;
+	background: #ccc;
+	height: 2px;
+	border: none;
+}
+
+.img-size {
+	width: 150px;
+}
+
+.resp-img {
+	width: 68px;
+	padding-bottom: 20px;
+}
+
+.resp-imgs .col-md-6 p {
+	position: relative;
+    width: 100%;
+    background: #4aaaa5;
+    text-align: center;
+    color: #fff;
+    padding: 20px 0;
+    font-size: 1.2em;
+    bottom: 85px;
+}
+
+.resp-imgs img {
+	width: 100%;
+}
+
+.border-bottom {
+	border-bottom: solid 2px #ccc;
+}
+
+.border-top {
+	border-top: 3px solid #4aaaa5;
+}
+
+label,
+input,
+textarea {
+	display: block;
+	margin-bottom: 20px;
+	width: 97%;
+	padding: 5px;
+}
+
+input::placeholder {
+	opacity: 0.5;
+}
+
+textarea {
+	height: 300px;
+}
+
+.main-section form label {
+	padding-bottom: 5px;
+}
+
+.submit {
+	background: #4aaaa5;
+	color: #fff;
+	padding: 10px 20px; 
+	border: none;
+	font-size: 1.2em;
+}
